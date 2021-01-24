@@ -4,4 +4,5 @@ class Student < ActiveRecord::Base
     @name = (first_name + " " + last_name).to_s
     @name
   end
+  
 end
