@@ -1,3 +1,5 @@
 class Students < ActiveRecord::Base
-
+  create_table :products do |t|
+  t.string :name
+end
 end
